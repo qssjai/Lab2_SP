@@ -1,0 +1,48 @@
+=== O0 ikj ===
+mode=ikj n=1024 time=4.758 s checksum=403931096.973
+	User time (seconds): 4.78
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.80
+	Maximum resident set size (kbytes): 16292
+           4880.73 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+          71882944      L1-dcache-load-misses            #      0.5 %  l1d_miss_rate            (42.80%)
+           1927993      branch-misses                    #      0.2 %  branch_miss_rate         (42.89%)
+        1107206894      branches                         #    226.9 M/sec  branch_frequency     (57.18%)
+       11645386650      cpu-cycles                       #      2.4 GHz  cycles_frequency       (57.25%)
+       38830679139      instructions                     #      3.3 instructions  insn_per_cycle  (57.20%)
+          62060199      stalled-cycles-frontend          #     0.01 frontend_cycles_idle        (57.11%)
+=== O3 ikj ===
+mode=ikj n=1024 time=0.135 s checksum=403931095.664
+	User time (seconds): 0.14
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.15
+	Maximum resident set size (kbytes): 16328
+            152.59 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+          74351991      L1-dcache-load-misses            #     11.3 %  l1d_miss_rate            (41.18%)
+           1505339      branch-misses                    #      1.0 %  branch_miss_rate         (43.82%)
+         140808317      branches                         #    922.8 M/sec  branch_frequency     (59.53%)
+         319063689      cpu-cycles                       #      2.1 GHz  cycles_frequency       (60.72%)
+         829265004      instructions                     #      2.6 instructions  insn_per_cycle  (58.82%)
+          19660228      stalled-cycles-frontend          #     0.06 frontend_cycles_idle        (56.18%)
+=== O0 blocked ===
+mode=blocked n=1024 time=5.569 s checksum=403931096.973
+	User time (seconds): 5.58
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.60
+	Maximum resident set size (kbytes): 16204
+           5826.61 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+         138637590      L1-dcache-load-misses            #      0.8 %  l1d_miss_rate            (42.93%)
+          18227825      branch-misses                    #      0.8 %  branch_miss_rate         (42.82%)
+        2245588793      branches                         #    385.4 M/sec  branch_frequency     (57.09%)
+       13727663993      cpu-cycles                       #      2.4 GHz  cycles_frequency       (57.10%)
+       43587634015      instructions                     #      3.2 instructions  insn_per_cycle  (57.07%)
+         167431675      stalled-cycles-frontend          #     0.01 frontend_cycles_idle        (57.18%)
+=== O3 blocked ===
+mode=blocked n=1024 time=0.894 s checksum=403931095.664
+	User time (seconds): 0.89
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.90
+	Maximum resident set size (kbytes): 16332
+            887.84 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+         153127807      L1-dcache-load-misses            #      4.5 %  l1d_miss_rate            (42.37%)
+          17929074      branch-misses                    #      0.8 %  branch_miss_rate         (42.42%)
+        2210887539      branches                         #   2490.2 M/sec  branch_frequency     (56.84%)
+        2108033026      cpu-cycles                       #      2.4 GHz  cycles_frequency       (57.62%)
+        9866168060      instructions                     #      4.7 instructions  insn_per_cycle  (57.63%)
+         105899861      stalled-cycles-frontend          #     0.05 frontend_cycles_idle        (57.58%)
